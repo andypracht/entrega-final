@@ -16,20 +16,6 @@
         padding: 0;
     }
     
-    @media (min-width: 992px) {
-        #logoSitio {
-            width: 9rem;
-            height: auto;
-            margin-left: 4.5rem;
-        }
-    }
-    
-    @media (max-width: 992px) {
-        .noticiaCard {
-            margin-top: 2rem;
-        }
-    }
-    
     a:hover {
         text-decoration: none;
     }
@@ -38,12 +24,6 @@
         display: block;
         text-align: right;
         padding: .5rem 1rem;
-    }
-    
-    @media (max-width: 600px) {
-        .navTexto {
-            font-size: 1.05rem;
-        }
     }
     
     .titulo {
@@ -149,3 +129,5 @@
         background-color: #fff;
         text-align: center;
     }
+    
+    @import '_queries.scss';

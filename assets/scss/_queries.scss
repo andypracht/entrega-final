@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    #logoSitio {
+        width: 9rem;
+        height: auto;
+        margin-left: 4.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .noticiaCard {
+        margin-top: 2rem;
+    }
+}
