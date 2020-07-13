@@ -1,0 +1,41 @@
+.slideLeft {
+    position: relative;
+    left: -2000px;
+    -webkit-animation: slideLeft 2s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slideLeft 2s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slideLeft {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slideLeft {
+    100% {
+        left: 0;
+    }
+}
+
+.slideRight {
+    position: relative;
+    right: -2000px;
+    -webkit-animation: slideRight 2s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slideRight 2s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slideRight {
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes slideRight {
+    100% {
+        right: 0;
+    }
+}
